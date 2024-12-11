@@ -35,7 +35,7 @@ const serverResponse = new Promise((resolve, reject) => {
     }
 });
 
-console.log(serverResponse);
+console.log(serverResponse); // Denna returner bar ett Promise
 
 
 // Använd Promise med async/await
@@ -49,6 +49,8 @@ async function serverResponseFn() {
 }
 
 serverResponseFn();
+
+
 
 
 
