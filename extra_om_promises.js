@@ -1,4 +1,7 @@
 // Promise.all() - praktiskt exempel som visar hur man kan hämta data från tre olika API:er samtidigt
+// och påbörja nästa steg när alla tre har svarat
+
+
 // async function fetchData(url) {
 //     const response = await fetch(url);
 //     return response.json();
